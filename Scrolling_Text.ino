@@ -8,7 +8,6 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  lcd.begin(16, 2);
   char array[] = {"Hello"};
   int size = sizeof array / sizeof array[0];
   int speed = 500;
